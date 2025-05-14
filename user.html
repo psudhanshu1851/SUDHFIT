@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="user.css">
+    <title> User| SUDHFIT</title>
+</head>
+
+<body>
+    
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="index.html" class="logo">
+            <i class='bx bxs-shopping-bags'></i>
+            <div class="logo-name"><span>SUDH</span>FIT</div>
+        </a>
+        <ul class="side-menu">
+            <li><a href="index.html"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
+            <li><a href="shop.html"><i class='bx bx-store-alt'></i>Shop</a></li>
+            <li><a href="cart.html"><i class='bx bx-cart-alt'></i>Cart</a></li>
+            <li class="active"><a href="user.html"><i class='bx bx-group'></i>Users</a></li>
+            <li><a href="profile.html"><i class='bx bx-analyse'></i>Profile</a></li>
+            
+        </ul>
+        
+    </div>
+    <!-- End of Sidebar -->
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Navbar -->
+        <nav>
+            <i class='bx bx-menu'></i>
+            <form action="#">
+                <div class="form-input">
+                    <input type="search" placeholder="Search...">
+                    <button class="search-btn" type="submit"><i class='bx bx-search'></i></button>
+                </div>
+            </form>
+            <input type="checkbox" id="theme-toggle" hidden>
+            <label for="theme-toggle" class="theme-toggle"></label>
+            <a href="#" class="notif">
+                <i class='bx bx-bell'></i>
+                <span class="count">5</span>
+            </a>
+            <div class="dropdown">
+                <a href="#" class="profile" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="images/logo.png">
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a href="profile.html" class="dropdown-item" href="#">Profile</a></li>
+                    <li><a href="setting.html" class="dropdown-item" href="#">Settings</a></li>
+                    <li><a href="#" class="dropdown-item" href="#">Logout</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+
+        <!-- End of Navbar -->
+        <main>
+            <div class="header">
+                <div class="left">
+                    <h1>User Management</h1>
+                    <ul class="breadcrumb">
+                        <li><a href="#">Dashboard</a></li>
+                        /
+                        <li><a href="#" class="active">Users</a></li>
+                    </ul>
+                </div>
+                <a href="#" class="report">
+                    <i class='bx bxs-user-account' ></i>
+                    <span>Manage User</span>
+                </a>
+            </div>
+
+            <!-- User List -->
+            <div class="user-list">
+                <div class="user-container">
+                    <div class="user-item">
+                        <h3>Shubham</h3>
+                        <p>Email: shubham@example.com</p>
+                        <p>Access Level: Admin</p>
+                        <p>Products Bought: 120</p>
+                        <p>Address: San Antonio</p>
+                    </div>
+                    <div class="user-item">
+                        <h3>Shunem</h3>
+                        <p>Email: Shunem@example.com</p>
+                        <p>Access Level: User</p>
+                        <p>Products Bought: 50</p>
+                        <p>Address: Los Angeles</p>
+                    </div>
+                    <div class="user-item">
+                        <h3>Nene</h3>
+                        <p>Email: Nene@example.com</p>
+                        <p>Access Level: user</p>
+                        <p>Products Bought: 18</p>
+                        <p>Address: New York</p>
+                    </div>
+                    <div class="user-item">
+                        <h3>Kaif</h3>
+                        <p>Email: smith@example.com</p>
+                        <p>Access Level: user</p>
+                        <p>Products Bought: 75</p>
+                        <p>Address: San Antonio</p>
+                    </div>
+                    <div class="user-item">
+                        <h3>Shivam</h3>
+                        <p>Email: Shivam@example.com</p>
+                        <p>Access Level: user</p>
+                        <p>Products Bought: 58</p>
+                        <p>Address: Houston</p>
+                    </div>
+                    <div class="user-item">
+                        <h3>Shashank</h3>
+                        <p>Email: Shashank@example.com</p>
+                        <p>Access Level: user</p>
+                        <p>Products Bought: 55</p>
+                        <p>Address: Chicago</p>
+                    </div>
+                    <!-- Add more user items as needed -->
+                </div>
+                <!-- Add user items here -->
+            </div>
+            <!-- End of User List -->
+
+        </main>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

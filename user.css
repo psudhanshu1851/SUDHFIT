@@ -1,0 +1,35 @@
+.user-item {
+    background: rgb(116, 118, 232);
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    border: 1px solid var(--dark-grey);
+    overflow: hidden; /* Ensure content stays within the box */
+    position: relative; /* Positioning for the image */
+}
+
+.user-image {
+    padding: 5px;
+    border-radius: 15px;
+    width: 120px; /* Adjust width as needed */
+    height: auto;
+    position: absolute; /* Position the image */
+    top: 50%; /* Move image to the middle vertically */
+    transform: translateY(-50%); /* Adjust vertical position */
+    right: 20px; /* Move image to the right side */
+}
+
+.user-item h3 {
+    margin: 0 0 10px; /* Reset margin for heading */
+    color: var(--dark);
+}
+
+.user-item p {
+    margin: 5px 0;
+    color: rgb(51, 6, 29);
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+}
